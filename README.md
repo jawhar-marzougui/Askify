@@ -35,7 +35,7 @@ Askify is a sophisticated document Q&A system that allows users to upload PDF do
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/jawhar-marzougui/Askify.git
 cd askify
 ```
 
