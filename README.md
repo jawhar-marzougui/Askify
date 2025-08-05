@@ -11,6 +11,14 @@ Askify is a sophisticated document Q&A system that allows users to upload PDF do
 - **Source Citations** - References to specific pages/documents for answers
 - **Multi-document Support** - Upload and query multiple PDFs simultaneously
 
+## 📸 Screenshots
+
+### 🔹 Before Uploading Documents
+![Before Upload Screenshot](images/capture1.png)
+
+### 🔹 Chat Example After Document Processing
+![Chat Example Screenshot](images/capture2.png)
+
 ## 🏗️ Architecture
 
 - **Frontend**: Streamlit web application with chat interface
