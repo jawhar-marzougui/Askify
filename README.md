@@ -120,12 +120,9 @@ askify/
 ├── parsing.py             # PDF processing utilities
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile            # Docker configuration
-├── .env.example          # Environment variables template
+├── .env                 # Environment variables template
 ├── .gitignore           # Git ignore rules
 ├── README.md            # Project documentation
-└── data/                # Sample data directory
-    └── paul_graham/
-        └── paul_graham_essay.txt
 ```
 
 ## 🛠️ Development
