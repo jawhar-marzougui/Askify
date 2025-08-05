@@ -34,7 +34,7 @@ Askify is a sophisticated document Q&A system that allows users to upload PDF do
 ### Prerequisites
 
 - Python 3.11+
-- Neo4j database (cloud or local)
+- Neo4j database (cloud)
 - API keys for:
   - Groq API
   - LlamaParse API
