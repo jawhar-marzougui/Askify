@@ -9,7 +9,7 @@ from parsing import parse_pdf, get_text_documents
 # Removed language detection
 import requests
 from llama_index.core import VectorStoreIndex, Document, StorageContext
-from sentence_transformers import SentenceTransformer
+from llama_index.embeddings import HuggingFaceEmbeddings
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.llms.groq import Groq
 from llama_index.core import Settings
@@ -72,7 +72,7 @@ def initialize_components():
     """Initialize embedding model, LLM, and spacy model"""
     # Use Arabic-compatible multilingual embedding model
 
-    embed_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+    embed_model = HuggingFaceEmbedding(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 
     llm = Groq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
