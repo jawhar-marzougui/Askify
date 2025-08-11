@@ -9,7 +9,7 @@ from parsing import parse_pdf, get_text_documents
 # Removed language detection
 import requests
 from llama_index.core import VectorStoreIndex, Document, StorageContext
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.huggingface.base import HuggingFaceEmbedding
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.llms.groq import Groq
 from llama_index.core import Settings
