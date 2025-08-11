@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 3. Download spaCy model:
 ```bash
-python -m spacy download en_core_web_sm
+python -m spacy download xx_ent_wiki_sm
 ```
 
 4. Set up environment variables:
